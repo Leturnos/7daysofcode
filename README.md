@@ -1,7 +1,7 @@
 # 7daysofcode
 Curso da Alura de python web
 <p>
-  Nesse curso de python web nós alunos teremos que:
+  Nesse curso de python web nós alunos teremos que: <br>
   🔹 Dia 1:Consumo da API de Avatar com o pacote requests
   
   🔹 Dia 2: Tratamento de dados e tradução com a biblioteca Googletrans
