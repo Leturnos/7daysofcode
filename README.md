@@ -1,12 +1,12 @@
 # 7daysofcode
 Curso da Alura de python web
 <p>
-  Dia 1: Consumo da API de Avatar com o pacote requests
-  Vamos ao desafio? Hoje vamos consumir a API de Avatar. Você deverá: 
+  Dia 1: Consumo da API de Avatar com o pacote requests <br>
+  Vamos ao desafio? Hoje vamos consumir a API de Avatar. Você deverá: <br>
   
-  🔹Criar o código Python para executar uma requisição HTTP do tipo GET usando o módulo requests.
-  🔹Executar a requisição e pegar a resposta (o JSON).
-  🔹Imprimir o corpo da resposta através de um print.
+  🔹Criar o código Python para executar uma requisição HTTP do tipo GET usando o módulo requests. <br>
+  🔹Executar a requisição e pegar a resposta (o JSON).<br>
+  🔹Imprimir o corpo da resposta através de um print.<br>
 </p>
 <div>
   <h1>Resolução:</h1>
