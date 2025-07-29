@@ -1,44 +1,30 @@
 from googletrans import Translator
-import requests, asyncio
-"""Por causa do erro do coroutine tive que usar asyncio,
-só depois de feito que vi que recomendaram usar a versão 3.1.010 kkkk
-"""
-
+import requests
+# obs: para rodar esse código precisei fazer um downgrade pra versão 3.1.0a0 do googletrans 
+# e usar o python 3.10 (a mais atual não tem cgi)
 def fetch_data():
     url = "https://last-airbender-api.fly.dev/api/v1/characters"
     response = requests.get(url)
     # 200 é a porta http:
     return response.json() if response.status_code == 200 else None # operador ternário
 
-def translate(list):
+def translate(lista):
     translator = Translator()
-    translations = translator.translate(list, src='en', dest='pt')
-    return translations
+    translations = translator.translate(lista, src='en', dest='pt')
+    return translations.text
 
-async def main():
-    characters = fetch_data()
+characters = fetch_data()
 
-    if characters:
-        for char in characters:
-            name = char.get('name', '') # usei get para evitar erro caso se não tivesse
-            affiliation = char.get('affiliation', '')
+if characters:
+    for char in characters:
+        name = char.get('name', '') # usei get para evitar erro caso se não tivesse
+        translation_name = translate(name)
+        char["name"] = translation_name
 
-            text_translate = []
-            if name:
-                text_translate.append(name)
-            if affiliation:
-                text_translate.append(affiliation)
+        affiliation = char.get('affiliation', '')
+        translation_affiliation = translate(affiliation)
+        char["affiliation"] = translation_affiliation
 
-            if text_translate:
-                translations = await translate(text_translate)
-
-                # resultados:
-                if name:
-                    print(f"Nome: {name} -> {translations[0].text}")
-                if affiliation:
-                    print(f"Afiliação: {affiliation} -> {translations[1].text}")
-                print() # pula uma linha
-    else:
-        print("Failed to fetch data")
-
-asyncio.run(main())
+        print(char)
+else:
+    print("Failed to fetch data")
