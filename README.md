@@ -9,8 +9,7 @@ Para isso, você pode usar alguma biblioteca de tradução do seu interesse. Rec
 </p>
 <div>
   <h1>Resolução:</h1>
-  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3afcdd0c-c1a9-4dbc-901b-c04339f29eb0" />
-  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/be88a889-0843-47d3-aa1b-81729b76f752" />
-  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/be1ba6ab-f04b-42a0-aaf3-dc82446ef9d9" />
+  <img width="600" height="400" alt="Captura de tela 2025-07-29 161502" src="https://github.com/user-attachments/assets/fa73ab9e-dc2c-4f43-931d-e61c43718a59" />
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a3da75bb-e06d-4176-a0d7-50ceac5ed98e" />
 </div>
 <a href="https://last-airbender-api.fly.dev/" target="_blank">link da API</a>
