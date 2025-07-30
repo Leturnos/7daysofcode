@@ -8,10 +8,10 @@ Curso da Alura de python web
       Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio2 <br>
   🔹 Dia 3: Primeiro contato com o framework Django <br>
       Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio3 <br>
-  🔹 Dia 4: Criação de rotas e views com MVT
-  
-  🔹 Dia 5: Desenvolvimento de tabela visual com Bootstrap integrado ao Django
-  
+  🔹 Dia 4: Criação de rotas e views com MVT <br>
+      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio4 <br>
+  🔹 Dia 5: Desenvolvimento de tabela visual com Bootstrap integrado ao Django <br>
+      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio5 <br>
   🔹 Dia 6: Geração de ID automático com Django
   
   🔹 Dia 7: Implementação de paginação para exibir múltiplos personagens
