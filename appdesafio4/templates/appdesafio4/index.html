@@ -1,0 +1,24 @@
+{% extends 'appdesafio4/base.html' %}
+
+{% block title %}Personagens Avatar{% endblock %}
+
+{% block content %}
+  <h1 class="text-center my-4">Lista de Personagens</h1>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for c in cards %}
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">{{ c.name }}</h4>
+            <p class="card-text">
+              <strong>Afiliação:</strong> {{ c.affiliation }}<br>
+              <strong>Aliados:</strong> {{ c.allies|default:"Nenhum" }}<br>
+              <strong>Inimigos:</strong> {{ c.enemies|default:"Nenhum" }}
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
