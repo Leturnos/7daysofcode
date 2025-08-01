@@ -1,19 +1,15 @@
 # 7daysofcode
 Curso da Alura de python web
 <p>
-  Nesse curso de python web nós alunos teremos que: <br>
-  🔹 Dia 1: Consumo da API de Avatar com o pacote requests <br>
-      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio1 <br>
-  🔹 Dia 2: Tratamento de dados e tradução com a biblioteca Googletrans <br>
-      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio2 <br>
-  🔹 Dia 3: Primeiro contato com o framework Django <br>
-      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio3 <br>
-  🔹 Dia 4: Criação de rotas e views com MVT <br>
-      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio4 <br>
-  🔹 Dia 5: Desenvolvimento de tabela visual com Bootstrap integrado ao Django <br>
-      Resolução: https://github.com/Leturnos/7daysofcode/tree/desafio5 <br>
-  🔹 Dia 6: Geração de ID automático com Django
-  
-  🔹 Dia 7: Implementação de paginação para exibir múltiplos personagens
+  🔹 Dia 7: Implementação de paginação para exibir múltiplos personagens <br>
+  Você deverá fazer uma paginação para o projeto. Dessa forma, você conseguirá mostrar mais personagens além dos que aparecem inicialmente. Vamos lá?
 </p>
+<div>
+  <h1>Resolução:</h1> <br>
+  <img width="600" height="400" alt="Captura de tela 2025-08-01 175354" src="https://github.com/user-attachments/assets/5a1d9cac-905d-4d13-953b-d5415d919f61" />
+  <img width="600" height="400" alt="Captura de tela 2025-08-01 175409" src="https://github.com/user-attachments/assets/4b8aa5af-c2b7-4d78-acbc-b31646d2c4f3" />
+  <img width="600" height="400" alt="Captura de tela 2025-08-01 175319" src="https://github.com/user-attachments/assets/69708035-c524-408a-ad05-61d03a715740" />
+  <img width="600" height="400" alt="Captura de tela 2025-08-01 173625" src="https://github.com/user-attachments/assets/45db6497-c30a-4da1-ab1d-715385ff6472" />
+  <img width="600" height="400" alt="Captura de tela 2025-08-01 173652" src="https://github.com/user-attachments/assets/51aa7d48-629e-4535-8bfd-a20bc3160863" />
+</div>
 <a href="https://last-airbender-api.fly.dev/" target="_blank">link da API</a>
