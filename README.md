@@ -32,7 +32,7 @@ Curso da Alura de python web
       Para criar uma venv rode os seguintes comandos no terminal: <br>
       * python -m venv venv <br>
       * source venv/bin/activate  # Linux/macOS <br>
-      venv\Scripts\activate     # Windows <br><br>
+      * venv\Scripts\activate     # Windows <br><br>
     <h2>3 passo:</h2> <br>
       Baixar as dependências. Para isso rode o seguinte comando no terminal: <br>
       * pip install -r requirements.txt <br><br>
