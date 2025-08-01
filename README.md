@@ -20,31 +20,31 @@ Curso da Alura de python web
 <div>
   <h1>Como testar?</h1>
   <p>
-    Requisitos: <br>
+    <h2>Requisitos:</h2> <br>
       * Python 3.10 (ou outra versão com cgi) <br>
       * VSCode ou outro editor <br>
       * pip <br>
-      * Virtualenv (o ambiente virtual é opcional, porém é ideal caso você seja dev) <br>
-    1 passo: <br>
+      * Virtualenv (o ambiente virtual é opcional, porém é ideal caso você seja dev) <br><br>
+    <h2>1 passo:</h2> <br>
       Baixar o código (code > download zip) indo na resolução do dia desejado ou caso queira clonar já finalizado, você pode rodar o comando: <br>
-      "git clone https://github.com/Leturnos/7daysofcode.git" no terminal de uma pasta desejada <br>
-    2 passo (opcional): <br>
+      "git clone https://github.com/Leturnos/7daysofcode.git" no terminal de uma pasta desejada <br><br>
+    <h2>2 passo (opcional):</h2><br>
       Para criar uma venv rode os seguintes comandos no terminal: <br>
-      python -m venv venv <br>
-      source venv/bin/activate  # Linux/macOS <br>
-      venv\Scripts\activate     # Windows <br>
-    3 passo: <br>
+      * python -m venv venv <br>
+      * source venv/bin/activate  # Linux/macOS <br>
+      venv\Scripts\activate     # Windows <br><br>
+    <h2>3 passo:</h2> <br>
       Baixar as dependências. Para isso rode o seguinte comando no terminal: <br>
-      pip install -r requirements.txt <br>
-    4 passo (caso você mexa em models.py ou remova a pasta migrations: <br>
-      python manage.py makemigrations <br>
-      python manage.py migrate <br>
-    5 passo: <br>
+      * pip install -r requirements.txt <br><br>
+    <h2>4 passo (caso você mexa em models.py ou remova a pasta migrations: </h2><br>
+      * python manage.py makemigrations <br>
+      * python manage.py migrate <br><br>
+    <h2>5 passo: </h2><br>
       Para rodar o servidor execute isso no terminal: <br>
-      python manage.py runserver <br>
-    6 passo: <br>
+      * python manage.py runserver <br><br>
+    <h2>6 passo:</h2><br>
       Acessar o servidor pelo link: <br>
-      http://127.0.0.1:8000/ <br>
+      * http://127.0.0.1:8000/ <br><br>
     * observação: Eu fiz esse passo a passo imaginando que a pessoa saiba um pouco sobre programação, caso precise de ajuda em alguma coisa ou encontre algum erro pode me contatar. Obrigado pela visita
   </p>
 </div>
