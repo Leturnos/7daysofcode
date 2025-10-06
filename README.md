@@ -22,19 +22,19 @@ Este projeto foi desenvolvido como resultado do desafio [**#7DaysOfCode** da Alu
 Este projeto foi construído em 7 dias, com um novo desafio a cada dia para adicionar funcionalidades à aplicação.
 
 * **🔹 Dia 1:** Consumo da API de Avatar com o pacote `requests`.
-    * *Resolução na branch: [desafio1](https://github.com/Leturnos/7daysofcode/tree/desafio1)*
+    * *Resolução na branch: [desafio1](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio1)*
 * **🔹 Dia 2:** Tratamento de dados e tradução com a biblioteca `googletrans`.
-    * *Resolução na branch: [desafio2](https://github.com/Leturnos/7daysofcode/tree/desafio2)*
+    * *Resolução na branch: [desafio2](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio2)*
 * **🔹 Dia 3:** Primeiro contato com o framework Django e estrutura do projeto.
-    * *Resolução na branch: [desafio3](https://github.com/Leturnos/7daysofcode/tree/desafio3)*
+    * *Resolução na branch: [desafio3](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio3)*
 * **🔹 Dia 4:** Criação de rotas e views, seguindo a arquitetura MVT.
-    * *Resolução na branch: [desafio4](https://github.com/Leturnos/7daysofcode/tree/desafio4)*
+    * *Resolução na branch: [desafio4](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio4)*
 * **🔹 Dia 5:** Desenvolvimento de uma tabela visual com Bootstrap integrado ao Django.
     * *Resolução na branch: [desafio5](https://github.com/Leturnos/7daysofcode/tree/desafio5)*
 * **🔹 Dia 6:** Geração de ID automático para os personagens no banco de dados do Django.
-    * *Resolução na branch: [desafio6](https://github.com/Leturnos/7daysofcode/tree/desafio6)*
+    * *Resolução na branch: [desafio6](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio6)*
 * **🔹 Dia 7:** Implementação de paginação para exibir múltiplos personagens.
-    * *Resolução na branch: [desafio7](https://github.com/Leturnos/7daysofcode/tree/desafio7)*
+    * *Resolução na branch: [desafio7](https://github.com/Leturnos/alura-django-7daysofcode/tree/desafio7)*
 
 *Observação: A branch `main` ou `master` contém o resultado final com todos os desafios concluídos.*
 
@@ -52,12 +52,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/Leturnos/7daysofcode.git
+    git clone https://github.com/Leturnos/alura-django-7daysofcode.git
     ```
 
 2.  **Acesse a pasta do projeto:**
     ```bash
-    cd 7daysofcode
+    cd alura-django-7daysofcode
     ```
 
 3.  **Crie e ative um ambiente virtual:**
